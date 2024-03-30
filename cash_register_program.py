@@ -1,8 +1,7 @@
 """
 Program Details:
 
-Course: DSC 510
-Version#:1: Week 10, Programming Assignment 11.1
+Simple Cash Register
 
 Requirements:
 Your program must have a welcome message for the user.
