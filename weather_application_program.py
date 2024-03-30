@@ -1,8 +1,7 @@
 """
 Program Details:
 
-Course: DSC 510
-Version#:1: Week 12, Programming Assignment 12.1
+Weather Application
 
 Requirements:
 Create a Python Application which asks the user for their zip code or city (Your program must perform both a city and a zip lookup). You must ask the user which they want to perform with each iteration of the program.
