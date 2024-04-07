@@ -143,5 +143,31 @@ This repo contains projects covering various Data Science concepts like Data exp
 
         The key aspects of the recommender system are preprocessing the data, creating a matrix of movie similarities,
         and using fuzzy matching to handle user input.
+
+    8. **Sentiment Analysis**:
+        This code demonstrates how to perform sentiment analysis on movie reviews using two different libraries (TextBlob and VADER), 
+        as well as how to create bag-of-words and TF-IDF representations of the text data, which can be useful for further machine learning          tasks.
+
+        **Dataset used**: labeledTrainData.tsv
+      
+         **Python Libraries used**: pandas,numpy,nltk,textblob
+
+         **Method used**:
+         1. Data Preprocessing:
+            The code reads in a TSV dataset containing movie reviews and their corresponding sentiment labels.
+            It cleans the text by converting to lowercase, removing punctuation, and tokenizing the words.
+            It also removes stop words and applies stemming to the text.
+         2. Sentiment Analysis using TextBlob:
+            The code uses the TextBlob library to generate a sentiment polarity score for each review, ranging from -1 to 1.
+            It then categorizes the reviews as "POSITIVE" or "NEGATIVE" based on the polarity score.
+            The accuracy of the TextBlob-based sentiment analysis is calculated and reported.
+         3. Sentiment Analysis using VADER:
+            The code uses the VADER (Valence Aware Dictionary and sEntiment Reasoner) library to generate sentiment scores for each review.
+            It categorizes the reviews as "POSITIVE" or "NEGATIVE" based on the compound sentiment score.
+            The accuracy of the VADER-based sentiment analysis is calculated and reported.
+         4. Bag-of-Words Representation:
+            The code creates a bag-of-words matrix from the preprocessed text using the CountVectorizer from scikit-learn.
+            It also creates a TF-IDF (Term Frequency-Inverse Document Frequency) matrix from the preprocessed text.
+            The dimensions of the bag-of-words and TF-IDF matrices are displayed.
      
    
