@@ -11,6 +11,7 @@ This repo contains projects covering various Data Science concepts like Data exp
    **ML techniques used**: Regression analysis, Predictive analysis, Cluster analysis, Correlation analysis, Categorical analysis
    
 2. **Indian_restaurants_program**: The goal is to find the best US city out of 4 given choices with the highest Indian restaurants density.
+   
    . Chicago,IL
    
    . Miami, FL
