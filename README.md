@@ -74,6 +74,7 @@ This repo contains projects covering various Data Science concepts like Data exp
       their relationships with housing prices, and calculating summary statistics.
    
 5. **Movie Database**:
+   Building a movie database.
   
       **Dataset used**: http://www.omdbapi.com/?
       
@@ -91,11 +92,30 @@ This repo contains projects covering various Data Science concepts like Data exp
          4. It tests the search functionality with movies like "Titanic" and an invalid name.
      
 7. **Predicting Fuel Efficiency**:
+   This document focuses on building a linear regression model to predict fuel efficiency (miles per gallon) of automobiles using
+   the auto-mpg dataset. 
      
-      **Dataset used**: http://www.omdbapi.com/?
+      **Dataset used**: auto-mpg.csv
       
-      **Python Libraries used**: urllib, json
+      **Python Libraries used**: pandas,seaborn, matplotlib,scipy,sklearn
 
       **Method used**:
+      1. Data Loading and Preprocessing:
+         .  The dataset is loaded into a Pandas dataframe.
+         .  Exploratory data analysis is performed, including checking correlations and creating visualizations.
+         .  Missing values in the 'horsepower' column are handled.
+         .  The data is split into training and testing sets.
+      2. Linear Regression Model:
+         .   A linear regression model is trained on the training data.
+         .   Performance metrics like RMSE (root mean squared error), MAE (mean absolute error), and R-squared are calculated
+            for both training and testing data.
+         .   The coefficients of the linear regression model are printed.
+      3. XGBoost Regression Model:
+         .   An XGBoost regression model is built using GridSearchCV for hyperparameter tuning.
+         .   The XGBoost model's performance is evaluated using RMSE, MAE, and R-squared on both training and testing data.
+      4. Results and Comparison:
+         .   The XGBoost model performs better than the linear regression model, with lower RMSE and MAE values on
+               both training and testing data.
+      5.  The R-squared value for the XGBoost model is slightly higher than the linear regression model, indicating a better fit.
       
    
