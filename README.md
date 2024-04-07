@@ -2,7 +2,7 @@
 This repo contains projects covering various Data Science concepts like Data exploration and analysis, visualization, machine learning, Etc.
 
 # Project List
-1. Forecasting EV Landscape: This project looks at the Electric Vehicle population and sales across United States, explores the historical data, challenges, competition, market situation and predicts the future trend and growth in US market.
+1. **Forecasting EV Landscape**: This project looks at the Electric Vehicle population and sales across United States, explores the historical data, challenges, competition, market situation and predicts the future trend and growth in US market.
    
    **Dataset used**: US_Electric_fuel_vehicles.csv, https://en.wikipedia.org/wiki/Electric_car
    
@@ -10,7 +10,7 @@ This repo contains projects covering various Data Science concepts like Data exp
    
    **ML techniques used**: Regression analysis, Predictive analysis, Cluster analysis, Correlation analysis, Categorical analysis
    
-2. Indian_restaurants_program: The goal is to find the best US city out of 4 given choices with the highest Indian restaurants density.
+2. **Indian_restaurants_program**: The goal is to find the best US city out of 4 given choices with the highest Indian restaurants density.
    . Chicago,IL
    . Miami, FL
    . New York, NY
