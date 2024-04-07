@@ -91,7 +91,7 @@ This repo contains projects covering various Data Science concepts like Data exp
             Search for a movie by name, print its details, and save the poster
          4. It tests the search functionality with movies like "Titanic" and an invalid name.
      
-7. **Predicting Fuel Efficiency**:
+6. **Predicting Fuel Efficiency**:
    This document focuses on building a linear regression model to predict fuel efficiency (miles per gallon) of automobiles using
    the auto-mpg dataset. 
      
@@ -117,5 +117,31 @@ This repo contains projects covering various Data Science concepts like Data exp
          .   The XGBoost model performs better than the linear regression model, with lower RMSE and MAE values on
                both training and testing data.
       5.  The R-squared value for the XGBoost model is slightly higher than the linear regression model, indicating a better fit.
+
+ 7.  **Recommendation System**:
+        Movie recommendation program allows users to get personalized movie recommendations based on their input.
+      **Dataset used**: movies.csv,ratings.csv
       
+      **Python Libraries used**: pandas,fuzzywuzzy,sklearn
+
+      **Method used**:
+      The code implements a movie recommender system using the MovieLens dataset, which includes movie ratings and titles.
+      The main steps are:
+        a. Load and merge the ratings and movies data into a single DataFrame.
+        b. Create a pivot table with movie titles as rows, user IDs as columns, and ratings as values.
+        c. Fill in missing rating values with 0.
+        d. Create a TF-IDF vector representation of the movie titles.
+        e. Calculate a cosine similarity matrix between the movie title vectors.
+        f. Define a function to get the closest matching movie title based on fuzzy string matching.
+        g. Define a function to generate top N recommendations for a given movie title by finding the most similar movies
+            based on the cosine similarity matrix.
+
+         The recommender system allows the user to input a movie title, and it will:
+           a. Find the closest matching movie title.
+           b. Use the cosine similarity to find the top 10 most similar movies.
+           c. Print the recommended movie titles.
+
+        The key aspects of the recommender system are preprocessing the data, creating a matrix of movie similarities,
+        and using fuzzy matching to handle user input.
+     
    
