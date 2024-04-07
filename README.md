@@ -144,7 +144,7 @@ This repo contains projects covering various Data Science concepts like Data exp
         The key aspects of the recommender system are preprocessing the data, creating a matrix of movie similarities,
         and using fuzzy matching to handle user input.
 
-    8. **Sentiment Analysis**:
+   8. **Sentiment Analysis**:
         This code demonstrates how to perform sentiment analysis on movie reviews using two different libraries (TextBlob and VADER), 
         as well as how to create bag-of-words and TF-IDF representations of the text data, which can be useful for further machine learning          tasks.
 
