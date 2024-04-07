@@ -197,5 +197,38 @@ This repo contains projects covering various Data Science concepts like Data exp
                      Using BeautifulSoup to parse the HTML content.
                      Leveraging regular expressions to extract the desired information (file numbers and titles).
                      Iterating through the HTML content to find the relevant sections and extract the data.
+
+   10.  **Weather App**:
+          The code implements a simple and user-friendly weather application that retrieves and displays current weather
+           and 36-hour forecast data for any US city or zip code using the OpenWeatherMap API.
+                  
+         **Dataset used**:
+          https://api.openweathermap.org/data/2.5/weather
+           https://api.openweathermap.org/data/2.5/forecast
+        
+         **Python Libraries used**: requests, json, time
+
+         **Method used**:
+           1. The main functionality is contained in the main() function, which:
+               Prompts the user to enter a zip code or city/country name.
+               Calls two helper functions to retrieve the current weather data and the extended 36-hour forecast data.
+               Displays the current weather information and the 36-hour forecast.
+               Prompts the user to enter another location or exit the program.
+            2. The weather_current() function:
+               Constructs the API request URL based on the user input (zip code or city/country).
+               Makes a GET request to the OpenWeatherMap API to retrieve the current weather data.
+               Handles any errors that may occur during the request.
+               Formats and prints the current weather information.
+            3. The weather_extended() function:
+               Constructs the API request URL for the 36-hour forecast based on the user input.
+               Makes a GET request to the OpenWeatherMap API to retrieve the extended forecast data.
+               Handles any errors that may occur during the request.
+               Formats and prints the 36-hour forecast information.
+            4. The convert_temp() function is a helper function that converts temperatures from Kelvin to Fahrenheit and Celsius.
+            5. The try_web() function is a helper function that handles various types of errors that may occur during the API requests,
+               such as HTTP errors, connection errors, timeout errors, and other exceptions.
+            6. The current_formatted() and ext_formatted() functions format the current weather and extended forecast data, respectively,
+                 for easy display to the user.
+            7. The more_weather() function allows the user to enter another location or exit the program.
      
    
