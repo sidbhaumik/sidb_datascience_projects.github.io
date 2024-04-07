@@ -83,15 +83,18 @@ This repo contains projects covering various Data Science concepts like Data exp
       **Method used**:
        Building a Movie Database Program by Reading an API:
    
-         1. It imports necessary libraries like urllib, json.
-         2. It loads a secret API key from a JSON file for the OMDb (Open Movie Database) API.
-         3. It defines utility functions to:
+       1. It imports necessary libraries like urllib, json.
+   
+       2. It loads a secret API key from a JSON file for the OMDb (Open Movie Database) API.
+   
+       3. It defines utility functions to:
             Print movie data from a JSON response
             Download and save a movie poster locally
             Search for a movie by name, print its details, and save the poster
-         4. It tests the search functionality with movies like "Titanic" and an invalid name.
+   
+       4. It tests the search functionality with movies like "Titanic" and an invalid name.
      
-6. **Predicting Fuel Efficiency**:
+7. **Predicting Fuel Efficiency**:
    This document focuses on building a linear regression model to predict fuel efficiency (miles per gallon) of automobiles using
    the auto-mpg dataset. 
      
@@ -101,24 +104,38 @@ This repo contains projects covering various Data Science concepts like Data exp
 
       **Method used**:
       1. Data Loading and Preprocessing:
+         
          a. The dataset is loaded into a Pandas dataframe.
+         
          b. Exploratory data analysis is performed, including checking correlations and creating visualizations.
+         
          c. Missing values in the 'horsepower' column are handled.
+         
          d. The data is split into training and testing sets.
-      2. Linear Regression Model:
+         
+      3. Linear Regression Model:
+         
          a. A linear regression model is trained on the training data.
+         
          b. Performance metrics like RMSE (root mean squared error), MAE (mean absolute error), and R-squared are calculated
             for both training and testing data.
+         
          c. The coefficients of the linear regression model are printed.
-      3. XGBoost Regression Model:
+         
+      5. XGBoost Regression Model:
+         
          a. An XGBoost regression model is built using GridSearchCV for hyperparameter tuning.
+         
          b. The XGBoost model's performance is evaluated using RMSE, MAE, and R-squared on both training and testing data.
-      4. Results and Comparison:
+         
+      7. Results and Comparison:
+         
          a. The XGBoost model performs better than the linear regression model, with lower RMSE and MAE values on
                both training and testing data.
-      5.  The R-squared value for the XGBoost model is slightly higher than the linear regression model, indicating a better fit.
+         
+      9.  The R-squared value for the XGBoost model is slightly higher than the linear regression model, indicating a better fit.
 
- 7.  **Recommendation System**:
+ 8.  **Recommendation System**:
         Movie recommendation program allows users to get personalized movie recommendations based on their input.
       **Dataset used**: movies.csv,ratings.csv
       
@@ -144,7 +161,7 @@ This repo contains projects covering various Data Science concepts like Data exp
         The key aspects of the recommender system are preprocessing the data, creating a matrix of movie similarities,
         and using fuzzy matching to handle user input.
 
-   8. **Sentiment Analysis**:
+   9. **Sentiment Analysis**:
         This code demonstrates how to perform sentiment analysis on movie reviews using two different libraries (TextBlob and VADER), 
         as well as how to create bag-of-words and TF-IDF representations of the text data, which can be useful for further machine learning          tasks.
 
@@ -170,7 +187,7 @@ This repo contains projects covering various Data Science concepts like Data exp
             It also creates a TF-IDF (Term Frequency-Inverse Document Frequency) matrix from the preprocessed text.
             The dimensions of the bag-of-words and TF-IDF matrices are displayed.
 
-   9.  **Top 100 ebooks titles**:
+   10.  **Top 100 ebooks titles**:
            This code demonstrates how to scrape data (top 100 ebook titles) from a website (Project Gutenberg) using Python
            and common libraries like BeautifulSoup and regex.
           
@@ -198,7 +215,7 @@ This repo contains projects covering various Data Science concepts like Data exp
                      Leveraging regular expressions to extract the desired information (file numbers and titles).
                      Iterating through the HTML content to find the relevant sections and extract the data.
 
-   10.  **Weather App**:
+   11.  **Weather App**:
           The code implements a simple and user-friendly weather application that retrieves and displays current weather
            and 36-hour forecast data for any US city or zip code using the OpenWeatherMap API.
                   
