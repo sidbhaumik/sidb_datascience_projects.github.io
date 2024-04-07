@@ -36,7 +36,16 @@ This repo contains projects covering various Data Science concepts like Data exp
       Exploring Toronto neighborhood.Generate maps to visualize the neighborhoods and how they cluster together.
       
       **Dataset used**: https://en.wikipedia.org/wiki/List_of_postal_codes_of_Canada:_M
+    
                         http://cocl.us/Geospatial_data
 
       **Python Libraries used**: Pandas, NumPy,Matplotlib, Seaborn, beautifulsoup,sklearn, folium
+
+    **Method used**:
+    1. Data is scraped from Wikipedia to get a list of postal codes and neighborhoods in Toronto.
+    2. Using the Foursquare API, nearby venues for each neighborhood are obtained and categorized.
+    3. The neighborhoods are clustered into 5 groups based on the types of venues present, using K-means clustering.
+    4. The most common venue categories for each neighborhood are identified and tabulated.
+    5. Geographic coordinates are obtained for each neighborhood using geocoding.
+    6. An interactive Folium map is generated, with markers indicating the neighborhoods color-coded by their cluster assignment.
    
