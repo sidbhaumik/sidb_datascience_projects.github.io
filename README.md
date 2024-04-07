@@ -37,8 +37,7 @@ This repo contains projects covering various Data Science concepts like Data exp
       
       **Dataset used**:
                         https://en.wikipedia.org/wiki/List_of_postal_codes_of_Canada:_M
-    
-                        http://cocl.us/Geospatial_data
+                         http://cocl.us/Geospatial_data
 
       **Python Libraries used**: Pandas, NumPy,Matplotlib, Seaborn, beautifulsoup,sklearn, folium
 
