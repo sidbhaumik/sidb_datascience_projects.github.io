@@ -49,4 +49,6 @@ This repo contains projects covering various Data Science concepts like Data exp
     4. The most common venue categories for each neighborhood are identified and tabulated.
     5. Geographic coordinates are obtained for each neighborhood using geocoding.
     6. An interactive Folium map is generated, with markers indicating the neighborhoods color-coded by their cluster assignment.
+  
+4. 
    
