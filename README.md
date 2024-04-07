@@ -12,8 +12,11 @@ This repo contains projects covering various Data Science concepts like Data exp
    
 2. **Indian_restaurants_program**: The goal is to find the best US city out of 4 given choices with the highest Indian restaurants density.
    . Chicago,IL
+   
    . Miami, FL
+   
    . New York, NY
+   
    . Los Angeles,CA.
 
    **Method used**: I have used the **Four Square API** through the venues channel.
