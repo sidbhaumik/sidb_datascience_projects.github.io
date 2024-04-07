@@ -35,7 +35,8 @@ This repo contains projects covering various Data Science concepts like Data exp
 3.  **Exploring Neighborhoods in the city of Toronto**:
       Exploring Toronto neighborhood.Generate maps to visualize the neighborhoods and how they cluster together.
       
-      **Dataset used**: https://en.wikipedia.org/wiki/List_of_postal_codes_of_Canada:_M
+      **Dataset used**:
+                        https://en.wikipedia.org/wiki/List_of_postal_codes_of_Canada:_M
     
                         http://cocl.us/Geospatial_data
 
