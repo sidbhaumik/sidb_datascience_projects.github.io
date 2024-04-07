@@ -73,16 +73,22 @@ This repo contains projects covering various Data Science concepts like Data exp
       The analysis provides insights into the Boston housing market by exploring the distributions of different variables,
       their relationships with housing prices, and calculating summary statistics.
    5. **Movie Database**:
-      This program covers two main parts:
-
-      Part 1: Building a Movie Database Program by Reading an API
+  
+      **Dataset used**: http://www.omdbapi.com/?
       
-      1. It imports necessary libraries like urllib, json.
-      2. It loads a secret API key from a JSON file for the OMDb (Open Movie Database) API.
-      3. It defines utility functions to:
-         Print movie data from a JSON response
-         Download and save a movie poster locally
-         Search for a movie by name, print its details, and save the poster
-      4. It tests the search functionality with movies like "Titanic" and an invalid name.
+      **Python Libraries used**: urllib, json
+
+      **Method used**:
+       Building a Movie Database Program by Reading an API
+      
+         1. It imports necessary libraries like urllib, json.
+         2. It loads a secret API key from a JSON file for the OMDb (Open Movie Database) API.
+         3. It defines utility functions to:
+            Print movie data from a JSON response
+            Download and save a movie poster locally
+            Search for a movie by name, print its details, and save the poster
+         4. It tests the search functionality with movies like "Titanic" and an invalid name.
+     
+   6. 
       
    
