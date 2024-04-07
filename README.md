@@ -101,10 +101,10 @@ This repo contains projects covering various Data Science concepts like Data exp
 
       **Method used**:
       1. Data Loading and Preprocessing:
-         .  The dataset is loaded into a Pandas dataframe.
-         .  Exploratory data analysis is performed, including checking correlations and creating visualizations.
-         .  Missing values in the 'horsepower' column are handled.
-         .  The data is split into training and testing sets.
+         a. The dataset is loaded into a Pandas dataframe.
+         b. Exploratory data analysis is performed, including checking correlations and creating visualizations.
+         c. Missing values in the 'horsepower' column are handled.
+         d. The data is split into training and testing sets.
       2. Linear Regression Model:
          .   A linear regression model is trained on the training data.
          .   Performance metrics like RMSE (root mean squared error), MAE (mean absolute error), and R-squared are calculated
