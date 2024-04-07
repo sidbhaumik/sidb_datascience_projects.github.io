@@ -81,6 +81,7 @@ This repo contains projects covering various Data Science concepts like Data exp
 
       **Method used**:
        Building a Movie Database Program by Reading an API:
+   
          1. It imports necessary libraries like urllib, json.
          2. It loads a secret API key from a JSON file for the OMDb (Open Movie Database) API.
          3. It defines utility functions to:
@@ -89,7 +90,7 @@ This repo contains projects covering various Data Science concepts like Data exp
             Search for a movie by name, print its details, and save the poster
          4. It tests the search functionality with movies like "Titanic" and an invalid name.
      
-6. **Predicting Fuel Efficiency**:
+7. **Predicting Fuel Efficiency**:
      
       **Dataset used**: http://www.omdbapi.com/?
       
