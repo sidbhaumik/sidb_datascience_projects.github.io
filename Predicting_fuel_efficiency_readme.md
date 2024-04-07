@@ -1,11 +1,10 @@
-Predicting Fuel Efficiency: This document focuses on building a linear regression model to predict fuel efficiency (miles per gallon) of automobiles using the auto-mpg dataset.
+**Predicting Fuel Efficiency**: This document focuses on building a linear regression model to predict fuel efficiency (miles per gallon) of automobiles using the auto-mpg dataset.
 
-Dataset used: auto-mpg.csv
+**Dataset used**: auto-mpg.csv
 
-Python Libraries used: pandas,seaborn, matplotlib,scipy,sklearn
+**Python Libraries used**: pandas,seaborn, matplotlib,scipy,sklearn
 
-Method used:
-
+**Method used**:
 Data Loading and Preprocessing: 
   a. The dataset is loaded into a Pandas dataframe. 
   b. Exploratory data analysis is performed, including checking correlations and creating visualizations. 
