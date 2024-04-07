@@ -6,7 +6,7 @@ This repo contains projects covering various Data Science concepts like Data exp
    
    **Dataset used**: US_Electric_fuel_vehicles.csv, https://en.wikipedia.org/wiki/Electric_car
    
-   **Python Libraries used**: Pandas, NumPy,Matplotlib, beautifulsoup,scikit-learn
+   **Python Libraries used**: Pandas, NumPy,Matplotlib, Seaborn, beautifulsoup,scikit-learn
    
    **ML techniques used**: Regression analysis, Predictive analysis, Cluster analysis, Correlation analysis, Categorical analysis
    
@@ -31,4 +31,12 @@ This repo contains projects covering various Data Science concepts like Data exp
    mean longitude and latitude values.
    Then I calculated the **mean of the Euclidean distance** from each venue to the mean coordinates.
    This was my indicator - **mean distance to the mean coordinate.**
+
+   3. **Exploring Neighborhoods in the city of Toronto**:
+      Exploring Toronto neighborhood.Generate maps to visualize the neighborhoods and how they cluster together.
+      
+      **Dataset used**: https://en.wikipedia.org/wiki/List_of_postal_codes_of_Canada:_M
+                        http://cocl.us/Geospatial_data
+
+      **Python Libraries used**: Pandas, NumPy,Matplotlib, Seaborn, beautifulsoup,sklearn, folium
    
