@@ -50,5 +50,24 @@ This repo contains projects covering various Data Science concepts like Data exp
     5. Geographic coordinates are obtained for each neighborhood using geocoding.
     6. An interactive Folium map is generated, with markers indicating the neighborhoods color-coded by their cluster assignment.
   
-4. 
+4. **Boston Housing Market Analysis**:
+This document analyzes the Boston housing market dataset.
+
+**Dataset used**:
+      Boston_housing.csv
+
+      **Python Libraries used**: Pandas, NumPy,Matplotlib
+
+    **Method used**:
+    The key steps and findings are:
+1. The Boston housing dataset is read from a CSV file, containing information on variables like crime rate, age of homes, rooms per dwelling, etc.
+2. Histograms are plotted for all variables in the new DataFrame using a loop.
+3. Scatter plots are created to visualize the relationship between crime rate (and its log value) vs housing prices.
+4. Some useful statistics are calculated:
+   Mean rooms per dwelling: 6.28
+   Median age of homes: 77.5 years
+   Mean distance to 5 Boston employment centers: 3.8
+5. The percentage of houses with a low price (<$20,000) is calculated as 41.5%.
+
+The analysis provides insights into the Boston housing market by exploring the distributions of different variables, their relationships with housing prices, and calculating summary statistics. 
    
