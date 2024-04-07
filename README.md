@@ -81,7 +81,6 @@ This repo contains projects covering various Data Science concepts like Data exp
 
       **Method used**:
        Building a Movie Database Program by Reading an API
-      
          1. It imports necessary libraries like urllib, json.
          2. It loads a secret API key from a JSON file for the OMDb (Open Movie Database) API.
          3. It defines utility functions to:
