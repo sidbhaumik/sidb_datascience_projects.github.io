@@ -32,7 +32,7 @@ This repo contains projects covering various Data Science concepts like Data exp
    Then I calculated the **mean of the Euclidean distance** from each venue to the mean coordinates.
    This was my indicator - **mean distance to the mean coordinate.**
 
-   3. **Exploring Neighborhoods in the city of Toronto**:
+3.  **Exploring Neighborhoods in the city of Toronto**:
       Exploring Toronto neighborhood.Generate maps to visualize the neighborhoods and how they cluster together.
       
       **Dataset used**: https://en.wikipedia.org/wiki/List_of_postal_codes_of_Canada:_M
