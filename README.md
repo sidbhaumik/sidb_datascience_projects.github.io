@@ -170,15 +170,15 @@ This repo contains projects covering various Data Science concepts like Data exp
             It also creates a TF-IDF (Term Frequency-Inverse Document Frequency) matrix from the preprocessed text.
             The dimensions of the bag-of-words and TF-IDF matrices are displayed.
 
-      9.  **Top 100 ebooks titles**:
+   9.  **Top 100 ebooks titles**:
            This code demonstrates how to scrape data (top 100 ebook titles) from a website (Project Gutenberg) using Python
            and common libraries like BeautifulSoup and regex.
           
-           **Dataset used**: https://www.gutenberg.org/browse/scores/top
+         **Dataset used**: https://www.gutenberg.org/browse/scores/top
       
-            **Python Libraries used**: urllib.request, urllib.parse, urllib.error,requests,BeautifulSoup
+         **Python Libraries used**: urllib.request, urllib.parse, urllib.error,requests,BeautifulSoup
 
-            **Method used**:
+         **Method used**:
              1. The code extracts the top 100 ebooks from the Project Gutenberg website.
              2. It follows these main steps:
                   Ignores SSL certificate errors to access the website.
