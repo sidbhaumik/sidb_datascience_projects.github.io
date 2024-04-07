@@ -169,5 +169,33 @@ This repo contains projects covering various Data Science concepts like Data exp
             The code creates a bag-of-words matrix from the preprocessed text using the CountVectorizer from scikit-learn.
             It also creates a TF-IDF (Term Frequency-Inverse Document Frequency) matrix from the preprocessed text.
             The dimensions of the bag-of-words and TF-IDF matrices are displayed.
+
+      9.  **Top 100 ebooks titles**:
+           This code demonstrates how to scrape data (top 100 ebook titles) from a website (Project Gutenberg) using Python
+           and common libraries like BeautifulSoup and regex.
+          
+           **Dataset used**: https://www.gutenberg.org/browse/scores/top
+      
+            **Python Libraries used**: urllib.request, urllib.parse, urllib.error,requests,BeautifulSoup
+
+            **Method used**:
+             1. The code extracts the top 100 ebooks from the Project Gutenberg website.
+             2. It follows these main steps:
+                  Ignores SSL certificate errors to access the website.
+                  Reads the HTML content of the top 100 ebooks page.
+                  Finds all the href links on the page.
+                  Uses regular expressions to extract the numeric file numbers for the top 100 ebooks.
+                  Extracts the titles of the top 100 ebooks from the HTML content.
+              3. Specifically, the code:
+                  Loops through the href links to find the file numbers for the top 100 ebooks.
+                  Searches the HTML content to find the section with the "Top 100 EBooks yesterday" heading.
+                  Extracts the titles of the top 100 ebooks by looping through the lines of text after the heading and using regular
+                  expressions to remove the non-title text.
+                  Prints the list of the top 100 ebook titles.
+               4. The key aspects of the code are:
+                  Handling the SSL certificate issue to access the website.
+                  Using BeautifulSoup to parse the HTML content.
+                  Leveraging regular expressions to extract the desired information (file numbers and titles).
+                  Iterating through the HTML content to find the relevant sections and extract the data.
      
    
