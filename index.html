@@ -104,7 +104,21 @@
 
         <section id="contact">
             <h2>Contact</h2>
-            <p>You can reach me via email at <a href="mailto:sid.bhaumik@gmail.com">sid.bhaumik@gmail.com</a></p>
+                    <div class="contact-form">
+            <form action="https://formspree.io/your-email" method="POST">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+                
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="_replyto" required>
+                
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" rows="4" required></textarea>
+                
+                <button type="submit">Send</button>
+            </form>
+        </div>
+    </div>
         </section>
     </main>
     <footer>
