@@ -199,6 +199,33 @@
     </p>
     <a href="https://github.com/sidbhaumik/sidb_datascience_projects.github.io/blob/main/Predicting%20Fuel%20Efficiency.pdf">View Project on GitHub</a>
 </div>
+            <div class="project">
+    <h3>Recommendation System</h3>
+    <p>This movie recommendation program allows users to get personalized movie recommendations based on their input.</p>
+    <p><strong>Dataset used:</strong> movies.csv, ratings.csv</p>
+    <p><strong>Python Libraries used:</strong> pandas, fuzzywuzzy, sklearn</p>
+    <p><strong>Method used:</strong> The code implements a movie recommender system using the MovieLens dataset, which includes movie ratings and titles. The main steps are:
+        <ul>
+            <li>Load and merge the ratings and movies data into a single DataFrame.</li>
+            <li>Create a pivot table with movie titles as rows, user IDs as columns, and ratings as values.</li>
+            <li>Fill in missing rating values with 0.</li>
+            <li>Create a TF-IDF vector representation of the movie titles.</li>
+            <li>Calculate a cosine similarity matrix between the movie title vectors.</li>
+            <li>Define a function to get the closest matching movie title based on fuzzy string matching.</li>
+            <li>Define a function to generate top N recommendations for a given movie title by finding the most similar movies based on the cosine similarity matrix.</li>
+        </ul>
+    </p>
+    <p>The recommender system allows the user to input a movie title, and it will:
+        <ul>
+            <li>Find the closest matching movie title.</li>
+            <li>Use the cosine similarity to find the top 10 most similar movies.</li>
+            <li>Print the recommended movie titles.</li>
+        </ul>
+    </p>
+    <p>The key aspects of the recommender system are preprocessing the data, creating a matrix of movie similarities, and using fuzzy matching to handle user input.</p>
+    <a href="https://github.com/sidbhaumik/sidb_datascience_projects.github.io/blob/main/Recommender%20System.pdf">View Project on GitHub</a>
+</div>
+
 
         </section>
 
