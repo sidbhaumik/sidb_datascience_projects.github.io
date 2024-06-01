@@ -103,22 +103,81 @@
                 <a href="https://github.com/sidbhaumik/sidb_datascience_projects.github.io/blob/main/Indian_restaurants_program.ipynb">View Project on GitHub</a>
             </div>
             <div class="project">
-                <h3>Indian Restaurants Program</h3>
-                <p>The goal is to find the best US city out of 4 given choices with the highest Indian restaurant density.</p>
-                <p><strong>Method used:</strong> Foursquare API through the venues channel.</p>
-                <a href="https://github.com/sidbhaumik/sidb_datascience_projects.github.io/blob/main/Indian_restaurants_program.ipynb">View Project on GitHub</a>
+                <h3>Exploring Neighborhoods in the city of Toronto</h3>
+                <p>Exploring Toronto neighborhood. Generate maps to visualize the neighborhoods and how they cluster together.</p>
+                <p><strong>Dataset used:</strong> <a href="https://en.wikipedia.org/wiki/List_of_postal_codes_of_Canada:_M">Wikipedia Postal Codes</a>, <a href="http://cocl.us/Geospatial_data">Geospatial Data</a></p>
+                <p><strong>Python Libraries used:</strong> Pandas, NumPy, Matplotlib, Seaborn, BeautifulSoup, sklearn, Folium</p>
+                <p><strong>Method used:</strong>
+                    <ul>
+                        <li>Data is scraped from Wikipedia to get a list of postal codes and neighborhoods in Toronto.</li>
+                        <li>Using the Foursquare API, nearby venues for each neighborhood are obtained and categorized.</li>
+                        <li>The neighborhoods are clustered into 5 groups based on the types of venues present, using K-means clustering.</li>
+                        <li>The most common venue categories for each neighborhood are identified and tabulated.</li>
+                        <li>Geographic coordinates are obtained for each neighborhood using geocoding.</li>
+                        <li>An interactive Folium map is generated, with markers indicating the neighborhoods color-coded by their cluster assignment.</li>
+                    </ul>
+                </p>
             </div>
-            <!-- Add more projects similarly -->
+            <div class="project">
+                <h3>Boston Housing Market Analysis</h3>
+                <p>This document analyzes the Boston housing market dataset.</p>
+                <p><strong>Dataset used:</strong> Boston_housing.csv</p>
+                <p><strong>Python Libraries used:</strong> Pandas, NumPy, Matplotlib</p>
+                <p><strong>Method used:</strong>
+                    <ul>
+                        <li>The Boston housing dataset is read from a CSV file, containing information on variables like crime rate, age of homes, rooms per dwelling, etc.</li>
+                        <li>Histograms are plotted for all variables in the new DataFrame using a loop.</li>
+                        <li>Scatter plots are created to visualize the relationship between crime rate (and its log value) vs housing prices.</li>
+                        <li>Some useful statistics are calculated:
+                            <ul>
+                                <li>Mean age of houses.</li>
+                                <li>Maximum age of houses.</li>
+                                <li>Proportion of houses over 80 years old.</li>
+                                <li>Mean crime rate of houses with prices above average and below average.</li>
+                            </ul>
+                        </li>
+                        <li>Conclusions are drawn regarding the relationship between crime rate and housing prices.</li>
+                    </ul>
+                </p>
+                <a href="https://github.com/sidbhaumik/sidb_datascience_projects.github.io/blob/main/Boston_Housing_Market.ipynb">View Project on GitHub</a>
+            </div>
+            <div class="project">
+                <h3>Financial Institution Customer Data Analysis</h3>
+                <p>The document analyzes the customer base of a financial institution, aiming to understand customer profiles and behavior.</p>
+                <p><strong>Dataset used:</strong> Customer_data.csv</p>
+                <p><strong>Python Libraries used:</strong> Pandas, NumPy, Matplotlib</p>
+                <p><strong>Method used:</strong>
+                    <ul>
+                        <li>The customer data is read from a CSV file, containing information on variables like customer age, income, account balance, etc.</li>
+                        <li>Histograms are plotted for all variables in the new DataFrame using a loop.</li>
+                        <li>Scatter plots are created to visualize the relationship between income and account balance.</li>
+                        <li>Some useful statistics are calculated:
+                            <ul>
+                                <li>Mean age of customers.</li>
+                                <li>Maximum income of customers.</li>
+                                <li>Proportion of customers with balances over a certain threshold.</li>
+                                <li>Mean account balance of customers with incomes above average and below average.</li>
+                            </ul>
+                        </li>
+                        <li>Conclusions are drawn regarding the relationship between income and account balance.</li>
+                    </ul>
+                </p>
+                <a href="https://github.com/sidbhaumik/sidb_datascience_projects.github.io/blob/main/Financial_Institution_Customer_Data.ipynb">View Project on GitHub</a>
+            </div>
         </section>
 
         <section id="contact">
             <h2>Contact</h2>
-            <p>You can reach me via email at <a href="mailto:sid.bhaumik@gmail.com">sid.bhaumik@gmail.com</a></p>
+            <p>You can reach me at:</p>
+            <ul>
+                <li>Email: <a href="mailto:siddhartha.bhaumik@example.com">siddhartha.bhaumik@example.com</a></li>
+                <li>LinkedIn: <a href="https://www.linkedin.com/in/siddhartha-bhaumik/">Siddhartha Bhaumik</a></li>
+                <li>GitHub: <a href="https://github.com/sidbhaumik">sidbhaumik</a></li>
+            </ul>
         </section>
     </main>
     <footer>
-        <p>&copy; 2024 Siddhartha Bhaumik</p>
+        <p>&copy; 2024 Siddhartha Bhaumik. All rights reserved.</p>
     </footer>
-    <script src="script.js"></script>
 </body>
 </html>
