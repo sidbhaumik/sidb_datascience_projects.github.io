@@ -225,6 +225,102 @@
     <p>The key aspects of the recommender system are preprocessing the data, creating a matrix of movie similarities, and using fuzzy matching to handle user input.</p>
     <a href="https://github.com/sidbhaumik/sidb_datascience_projects.github.io/blob/main/Recommender%20System.pdf">View Project on GitHub</a>
 </div>
+<div class="project">
+    <h3>Sentiment Analysis</h3>
+    <p>This code demonstrates how to perform sentiment analysis on movie reviews using two different libraries (TextBlob and VADER), as well as how to create bag-of-words and TF-IDF representations of the text data, which can be useful for further machine learning tasks.</p>
+    <p><strong>Dataset used:</strong> labeledTrainData.tsv</p>
+    <p><strong>Python Libraries used:</strong> pandas, numpy, nltk, textblob</p>
+    <p><strong>Method used:</strong>
+        <ul>
+            <li><strong>Data Preprocessing:</strong> The code reads in a TSV dataset containing movie reviews and their corresponding sentiment labels. It cleans the text by converting to lowercase, removing punctuation, and tokenizing the words. It also removes stop words and applies stemming to the text.</li>
+            <li><strong>Sentiment Analysis using TextBlob:</strong> The code uses the TextBlob library to generate a sentiment polarity score for each review, ranging from -1 to 1. It then categorizes the reviews as "POSITIVE" or "NEGATIVE" based on the polarity score. The accuracy of the TextBlob-based sentiment analysis is calculated and reported.</li>
+            <li><strong>Sentiment Analysis using VADER:</strong> The code uses the VADER (Valence Aware Dictionary and sEntiment Reasoner) library to generate sentiment scores for each review. It categorizes the reviews as "POSITIVE" or "NEGATIVE" based on the compound sentiment score. The accuracy of the VADER-based sentiment analysis is calculated and reported.</li>
+            <li><strong>Bag-of-Words Representation:</strong> The code creates a bag-of-words matrix from the preprocessed text using the CountVectorizer from scikit-learn. It also creates a TF-IDF (Term Frequency-Inverse Document Frequency) matrix from the preprocessed text. The dimensions of the bag-of-words and TF-IDF matrices are displayed.</li>
+        </ul>
+    </p>
+    <a href="https://github.com/sidbhaumik/sidb_datascience_projects.github.io/blob/main/Sentiment_Analysis.pdf">View Project on GitHub</a>
+</div>
+<div class="project">
+    <h3>Top 100 ebooks titles</h3>
+    <p>This code demonstrates how to scrape data (top 100 ebook titles) from a website (Project Gutenberg) using Python and common libraries like BeautifulSoup and regex.</p>
+    <p><strong>Dataset used:</strong> <a href="https://www.gutenberg.org/browse/scores/top">https://www.gutenberg.org/browse/scores/top</a></p>
+    <p><strong>Python Libraries used:</strong> urllib.request, urllib.parse, urllib.error, requests, BeautifulSoup</p>
+    <p><strong>Method used:</strong>
+        <ul>
+            <li>The code extracts the top 100 ebooks from the Project Gutenberg website.</li>
+            <li>It follows these main steps:
+                <ul>
+                    <li>Ignores SSL certificate errors to access the website.</li>
+                    <li>Reads the HTML content of the top 100 ebooks page.</li>
+                    <li>Finds all the href links on the page.</li>
+                    <li>Uses regular expressions to extract the numeric file numbers for the top 100 ebooks.</li>
+                    <li>Extracts the titles of the top 100 ebooks from the HTML content.</li>
+                </ul>
+            </li>
+            <li>Specifically, the code:
+                <ul>
+                    <li>Loops through the href links to find the file numbers for the top 100 ebooks.</li>
+                    <li>Searches the HTML content to find the section with the "Top 100 EBooks yesterday" heading.</li>
+                    <li>Extracts the titles of the top 100 ebooks by looping through the lines of text after the heading and using regular expressions to remove the non-title text.</li>
+                    <li>Prints the list of the top 100 ebook titles.</li>
+                </ul>
+            </li>
+            <li>The key aspects of the code are:
+                <ul>
+                    <li>Handling the SSL certificate issue to access the website.</li>
+                    <li>Using BeautifulSoup to parse the HTML content.</li>
+                    <li>Leveraging regular expressions to extract the desired information (file numbers and titles).</li>
+                    <li>Iterating through the HTML content to find the relevant sections and extract the data.</li>
+                </ul>
+            </li>
+        </ul>
+    </p>
+    <a href="https://github.com/sidbhaumik/sidb_datascience_projects.github.io/blob/main/Top100_ebooks_program.pdf">View Project on GitHub</a>
+</div>
+<div class="project">
+    <h3>Weather App</h3>
+    <p>The code implements a simple and user-friendly weather application that retrieves and displays current weather and 36-hour forecast data for any US city or zip code using the OpenWeatherMap API.</p>
+    <p><strong>Dataset used:</strong>
+        <ul>
+            <li><a href="https://api.openweathermap.org/data/2.5/weather">https://api.openweathermap.org/data/2.5/weather</a></li>
+            <li><a href="https://api.openweathermap.org/data/2.5/forecast">https://api.openweathermap.org/data/2.5/forecast</a></li>
+        </ul>
+    </p>
+    <p><strong>Python Libraries used:</strong> requests, json, time</p>
+    <p><strong>Method used:</strong>
+        <ul>
+            <li>The main functionality is contained in the <code>main()</code> function, which:
+                <ul>
+                    <li>Prompts the user to enter a zip code or city/country name.</li>
+                    <li>Calls two helper functions to retrieve the current weather data and the extended 36-hour forecast data.</li>
+                    <li>Displays the current weather information and the 36-hour forecast.</li>
+                    <li>Prompts the user to enter another location or exit the program.</li>
+                </ul>
+            </li>
+            <li>The <code>weather_current()</code> function:
+                <ul>
+                    <li>Constructs the API request URL based on the user input (zip code or city/country).</li>
+                    <li>Makes a GET request to the OpenWeatherMap API to retrieve the current weather data.</li>
+                    <li>Handles any errors that may occur during the request.</li>
+                    <li>Formats and prints the current weather information.</li>
+                </ul>
+            </li>
+            <li>The <code>weather_extended()</code> function:
+                <ul>
+                    <li>Constructs the API request URL for the 36-hour forecast based on the user input.</li>
+                    <li>Makes a GET request to the OpenWeatherMap API to retrieve the extended forecast data.</li>
+                    <li>Handles any errors that may occur during the request.</li>
+                    <li>Formats and prints the 36-hour forecast information.</li>
+                </ul>
+            </li>
+            <li>The <code>convert_temp()</code> function is a helper function that converts temperatures from Kelvin to Fahrenheit and Celsius.</li>
+            <li>The <code>try_web()</code> function is a helper function that handles various types of errors that may occur during the API requests, such as HTTP errors, connection errors, timeout errors, and other exceptions.</li>
+            <li>The <code>current_formatted()</code> and <code>ext_formatted()</code> functions format the current weather and extended forecast data, respectively, for easy display to the user.</li>
+            <li>The <code>more_weather()</code> function allows the user to enter another location or exit the program.</li>
+        </ul>
+    </p>
+    <a href="https://github.com/sidbhaumik/sidb_datascience_projects.github.io/blob/main/Weather%20App.pdf">View Project on GitHub</a>
+</div>
 
 
         </section>
